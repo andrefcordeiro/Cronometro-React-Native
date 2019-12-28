@@ -5,3 +5,9 @@ Para iniciar o projeto insira o seguinte comando no cmd (tendo em vista que voce
 
 < react-native init Cronometro > 
 
+Para executar o projeto digite (estando na pasta do projeto no cmd):
+
+< react-native run-android >
+
+
+
