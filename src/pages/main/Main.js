@@ -24,7 +24,7 @@ class Main extends React.Component{
     
    
     Init_contagem = () =>{
-
+        this.setState({texto_pause: 'PAUSAR'})
         this.setState({cor_contagem: 'white'})
         this.setState({cor_iniciar: 'green'})
 
@@ -38,7 +38,7 @@ class Main extends React.Component{
                 this.setState({seg: this.state.seg.length == 1 ? '0' + this.state.seg : this.state.seg})
                 if(this.state.seg == 59)
                 {
-                    this.setState({seg: 0})
+                    this.setState({seg: '00'})
                     this.setState({min: (Number(this.state.min) + 1).toString()})
                     this.setState({min: this.state.min.length == 1 ? '0' + this.state.min : this.state.min})
                 }
@@ -57,15 +57,15 @@ class Main extends React.Component{
         this.setState({cor_contagem: 'white'})
         this.setState({cor_iniciar: 'white'})
         this.setState({texto_pause: 'PAUSAR'})
-        this.state.cronometro = null
         clearInterval(this.state.cronometro)
+        this.state.cronometro = null
     }
 
     Des_contagem = () =>{
 
-        
         let habilit_cont = this.state.habilit_cont
    
+
         if(habilit_cont == 1)
         {
             this.setState({habilit_cont:0})
