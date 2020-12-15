@@ -5,7 +5,7 @@ A simple stopwatch timer created using React Native
 ### Cloning the project
     
 ``` 
-git clone https://github.com/andrefcordeiro/Cronometro-React-Native.git
+git clone https://github.com/andrefcordeiro/React-Native-Stopwatch-Timer.git
 ```
 
 ### Installing dependencies
