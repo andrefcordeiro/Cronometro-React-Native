@@ -1,15 +1,25 @@
-# Cronometro-em-React-Native
+# :timer_clock:	Cronometro em React Native
 Um cronometro simples desenvolvido em React Native
 
-• Para iniciar o projeto insira o seguinte comando no cmd (tendo em vista que voce já possua o ambiente do React Native instalado):
+## Iniciando o projeto 
+• Clonando o projeto
     
-    react-native init Cronometro
+``` 
+git clone https://github.com/andrefcordeiro/Cronometro-React-Native.git
+```
 
-• Para inserir os arquivos aqui postados no projeto, copie e cole dentro da pasta do projeto, substituindo o index.js caso necessário
+• Instalando dependências
 
-• Para executar o projeto digite (estando na pasta do projeto no cmd):
+```
+npm install
+```
+
+• Executando o projeto:
    
-    react-native run-android
+```
+react-native run-android
+```
+
 
 
 
