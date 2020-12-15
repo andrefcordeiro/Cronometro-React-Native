@@ -1,20 +1,19 @@
-# :timer_clock:	Cronometro em React Native
-Um cronometro simples desenvolvido em React Native
+# :timer_clock:	React Native Stopwatch Timer
+A simple stopwatch timer created using React Native
 
-## Iniciando o projeto 
-• Clonando o projeto
+## Setup instructions
+### Cloning the project
     
 ``` 
 git clone https://github.com/andrefcordeiro/Cronometro-React-Native.git
 ```
 
-• Instalando dependências
-
+### Installing dependencies
 ```
 npm install
 ```
 
-• Executando o projeto:
+### Starting the app
    
 ```
 react-native run-android
