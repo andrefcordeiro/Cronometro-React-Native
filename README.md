@@ -14,7 +14,6 @@ npm install
 ```
 
 ### Starting the app
-   
 ```
 react-native run-android
 ```
